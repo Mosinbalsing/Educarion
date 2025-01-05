@@ -18,7 +18,8 @@ const navItems = [
 
 export function Navbar() {
   return (
-    <nav className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white h-[100px]flex items-center px-6 shadow-lg py-5 sticky top-0 z-30 ">
+    <nav className="bg-gradient-to-r from-black via-gray-800 to-gray-900
+ text-white h-[100px]flex items-center px-6 shadow-lg py-5 sticky top-0 z-30 ">
       <div className="flex space-x-6">
         {navItems.map(({ name, icon }) => (
           <NavLink
@@ -27,8 +28,9 @@ export function Navbar() {
             className={({ isActive }) =>
               `flex items-center px-4 py-2 rounded-lg transition-all duration-300 ${
                 isActive
-                  ? "bg-blue-800 text-white scale-105 shadow-md"
-                  : "text-blue-200 hover:bg-blue-600 hover:scale-105 hover:shadow-lg"
+                    ? "bg-black text-white scale-105 shadow-md"
+                    : "text-gray-400 hover:bg-gray-800 hover:scale-105 hover:shadow-lg"
+
               }`
             }
           >
