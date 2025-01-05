@@ -1,9 +1,9 @@
 import { Routes, Route ,Link} from "react-router-dom";
-import Flex from "./CSS/Flex";
-import Grid from "./CSS/Grid";
-import Position from "./CSS/Position";
-import Selector from "./CSS/Selector";
-import BoxModel from "./CSS/BoxModel";
+import Flex from "./cSS/Flex";
+import Grid from "./cSS/Grid";
+import Position from "./cSS/Position";
+import Selector from "./cSS/Selector";
+import BoxModel from "./cSS/BoxModel";
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
