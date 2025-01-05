@@ -18,7 +18,7 @@ const navItems = [
 
 export function Navbar() {
   return (
-    <nav className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white h-[100px]flex items-center px-6 shadow-lg py-5 sticky top-0 ">
+    <nav className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white h-[100px]flex items-center px-6 shadow-lg py-5 sticky top-0 z-30 ">
       <div className="flex space-x-6">
         {navItems.map(({ name, icon }) => (
           <NavLink

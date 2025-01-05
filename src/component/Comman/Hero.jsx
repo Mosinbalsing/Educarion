@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <section className="relative dark:text-white">
+    <section className="relative bg-[url('https://tailwindcss.com/_next/static/media/docs@30.8b9a76a2.avif')] bg-black text-white p-0 m-0 ">
       <div className="px-4 mx-auto sm:px-6 md:px-0">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="pb-12 text-center md:pb-16">

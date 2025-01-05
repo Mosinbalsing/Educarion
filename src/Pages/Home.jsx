@@ -1,7 +1,7 @@
 import  Hero from "@/component/Comman/Hero";
 
 function Home() {
-  return <div><Hero/></div>;
+  return <Hero/>;
 }
 
 export default Home;
