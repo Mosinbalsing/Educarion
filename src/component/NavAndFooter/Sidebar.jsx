@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 
 const topics = {
-  css: ["Grid", "Flex", "Position"],
+  css: ["Selectors", "Box-Model","Grid", "Flex", "Position"],
   html: ["Elements", "Attributes", "Forms"],
   js: ["Variables", "Functions", "Objects"],
   python: ["Syntax", "Data Types", "Functions"],

@@ -1,9 +1,9 @@
 import { Routes, Route ,Link} from "react-router-dom";
-import Flex from "./cSS/Flex";
-import Grid from "./cSS/Grid";
-import Position from "./cSS/Position";
-
-
+import Flex from "./CSS/Flex";
+import Grid from "./CSS/Grid";
+import Position from "./CSS/Position";
+import Selector from "./CSS/Selector";
+import BoxModel from "./CSS/BoxModel";
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -110,37 +110,37 @@ const cssTopics = [
     name: "Selectors",
     icon: <Code className="w-6 h-6" />,
     description: "Learn how to target HTML elements with precision using CSS selectors.",
-    link: "/topics/selectors"
+    link: "/css/selectors"
   },
   {
     name: "Box Model",
     icon: <Layout className="w-6 h-6" />,
     description: "Understand the fundamental concept of how elements are rendered in CSS.",
-    link: "/topics/box-model"
+    link: "/css/box-model"
   },
   {
     name: "Flexbox",
     icon: <Layers className="w-6 h-6" />,
     description: "Master the flexible box layout for efficient alignment and distribution of space.",
-    link: "/topics/flexbox"
+    link: "/css/flex"
   },
   {
     name: "Grid",
     icon: <FileCode2 className="w-6 h-6" />,
     description: "Create complex, responsive layouts with CSS Grid.",
-    link: "/topics/grid"
+    link: "/css/grid"
   },
   {
     name: "Animations",
     icon: <Palette className="w-6 h-6" />,
     description: "Bring your web pages to life with CSS animations and transitions.",
-    link: "/topics/animations"
+    link: "/css/animations"
   },
   {
     name: "Responsive Design",
     icon: <BookOpen className="w-6 h-6" />,
     description: "Learn techniques for creating websites that work well on all devices.",
-    link: "/topics/responsive-design"
+    link: "/css/responsive-design"
   }
 ]
 
@@ -180,6 +180,8 @@ function Css() {
       <Route path="/grid" element={<Grid />} />
       <Route path="/flex" element={<Flex />} />
       <Route path="/position" element={<Position />} />
+      <Route path="/selectors" element={<Selector />} />
+      <Route path="/box-model" element={<BoxModel />} />
     </Routes>
   );
 }

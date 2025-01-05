@@ -10,7 +10,7 @@ export default function StickyDemo() {
     <div className="space-y-4">
       <h2 className="text-2xl font-semibold">Sticky Position</h2>
       <p className="text-gray-600">
-        The element is positioned based on the user's scroll position. It toggles between relative and fixed positioning. Adjust the top value and scroll the container to see the effect.
+        The element is positioned based on the user`s scroll position. It toggles between relative and fixed positioning. Adjust the top value and scroll the container to see the effect.
       </p>
       <div>
         <Label htmlFor="top">Top</Label>
