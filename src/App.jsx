@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from"@/component/NavAndFooter/Navbar"
 import { Sidebar } from "@/component/NavAndFooter/Sidebar";
 import Home from "@/Pages/Home";
-import Html from "@/pages/Html";
-import Css from "@/pages/Css";
-import Js from "@/pages/Js";
+import Html from "@/Pages/Html";
+import Css from "@/Pages/Css";
+import Js from "@/Pages/Js";
 import Python from "@/pages/Python";
 
 function App() {
