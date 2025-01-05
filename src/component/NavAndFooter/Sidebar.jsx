@@ -20,7 +20,7 @@ export function Sidebar() {
   if (currentTopics.length === 0) return null;
 
   return (
-    <div className="w-64 bg-white border-r p-4 sticky">
+    <div className="w-64 bg-gray-900 border-r border-gray-800 p-4 sticky">
       <nav className="space-y-1">
         {currentTopics.map((topic) => (
           <Link
@@ -28,8 +28,8 @@ export function Sidebar() {
             to={`/${location.pathname.split("/")[1]}/${topic.toLowerCase().replace(" ", "-")}`}
             className={`block px-4 py-2 rounded-md ${
               location.pathname.endsWith(topic.toLowerCase().replace(" ", "-"))
-                ? "bg-blue-500 text-white"
-                : "text-gray-700 hover:bg-gray-200"
+                ? "bg-black text-white"
+                : "text-gray-400 hover:bg-gray-800 hover:text-white"
             }`}
           >
             {topic}

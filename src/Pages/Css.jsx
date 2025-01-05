@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route ,Link} from "react-router-dom";
 import Flex from "./cSS/Flex";
 import Grid from "./cSS/Grid";
 import Position from "./cSS/Position";
@@ -10,7 +10,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { BookOpen, Code, FileCode2, Layers, Layout, Palette } from 'lucide-react'
 
 
-export default function HomePage() {
+export  function HomePage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-12">
@@ -52,7 +52,7 @@ export default function HomePage() {
               </CardContent>
               <div className="p-4 mt-auto">
                 <Button asChild>
-                  <Link href={topic.link}>Learn More</Link>
+                  <Link to={topic.link}>Learn More</Link>
                 </Button>
               </div>
             </Card>
@@ -173,11 +173,10 @@ const resources = [
 
 
 
-
-export const Css=()=> {
+function Css() {
   return (
     <Routes>
-      <Route path="/" element={ <HomePage/> } />
+      <Route path="/" element={<HomePage/>} />
       <Route path="/grid" element={<Grid />} />
       <Route path="/flex" element={<Flex />} />
       <Route path="/position" element={<Position />} />
@@ -185,4 +184,4 @@ export const Css=()=> {
   );
 }
 
-
+export default Css;
