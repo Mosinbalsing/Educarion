@@ -51,7 +51,7 @@ export default function Hero() {
           </div>
           {/* Hero image */}
 
-          <div className="relative">
+          <div className="relative mt-4">
             <div className="absolute top-0 right-0 left-0 mx-auto mt-12 max-w-6xl border-white/10">
               <img
                 src="https://framerusercontent.com/images/jvlcne0ABTxg7RFwM1Ra0R1p47E.png?scale-down-to=1024"
