@@ -6,7 +6,7 @@ import Home from "@/Pages/Home";
 import Html from "@/Pages/Html";
 import Css from "@/Pages/Css";
 import Js from "@/Pages/Js";
-import Python from "@/pages/Python";
+import Python from "@/Pages/Python";
 
 function App() {
   return (
